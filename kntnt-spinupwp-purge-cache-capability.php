@@ -3,9 +3,9 @@
 /**
  * @wordpress-plugin
  * Plugin Name:       Kntnt SpinupWP Purge Cache Capability
- * Plugin URI:        https://www.kntnt.com/
+ * Plugin URI:        https://github.com/Kntnt/kntnt-spinupwp-purge-cache-capability
  * Description:       Changes the capability for empty cache through SpinupWP helper plugin to kntnt-spinupwp-purge-cache.
- * Version:           1.0.0
+ * Version:           1.0.1
  * Author:            Thomas Barregren
  * Author URI:        https://www.kntnt.com/
  * License:           GPL-3.0+
