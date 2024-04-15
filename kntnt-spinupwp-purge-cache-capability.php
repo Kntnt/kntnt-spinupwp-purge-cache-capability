@@ -16,7 +16,7 @@
 // Use a role/capability plugin (e.g. Members by Justin Tadlock) to assign
 // the capability to other roles.
 add_action( 'wp_before_admin_bar_render', function () {
-	if ( isset( $admin = get_role( 'administrator' ) ) && ! $admin->has_cap( 'kntnt_spinupwp_purge_cache' ) ) {
+	if ( null !== ( $admin = get_role( 'administrator' ) ) && ! $admin->has_cap( 'kntnt_spinupwp_purge_cache' ) ) {
 		$admin->add_cap( 'kntnt_spinupwp_purge_cache' );
 	}
 } );
